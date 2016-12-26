@@ -12,10 +12,18 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.5</maven.compiler.source>
+        <maven.compiler.target>1.5</maven.compiler.target>
     </properties>
 
+    <licenses>
+        <license>
+            <name>GNU General Public License, Version 2</name>
+            <url>file://./gpl.txt</url>
+            <distribution>manual</distribution>
+            <comments>A free, copyleft license for software and other kinds of works</comments>
+        </license>
+    </licenses>
     <build>
         <plugins>
             <plugin>
